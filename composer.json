@@ -1,0 +1,17 @@
+{
+  "name": "demo/dependency-fix-crew-target",
+  "description": "Small PHP repository fixture for dependency scanner testing",
+  "type": "project",
+  "require": {
+    "php": ">=8.3.31 <8.4",
+    "psr/log": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\DependencyFixCrewTarget\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

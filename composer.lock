@@ -1,0 +1,42 @@
+{
+  "_readme": [
+    "This lock file is a structural fixture and was not generated or validated by Composer.",
+    "Run composer update --no-interaction to regenerate it with Composer."
+  ],
+  "content-hash": "fixture-not-generated-by-composer",
+  "packages": [
+    {
+      "name": "psr/log",
+      "version": "3.0.2",
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Psr\\Log\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": ["MIT"],
+      "authors": [
+        {"name": "PHP-FIG", "homepage": "https://www.php-fig.org/"}
+      ],
+      "description": "Common interface for logging libraries",
+      "support": {
+        "source": "https://github.com/php-fig/log"
+      },
+      "require": {
+        "php": ">=8.0.0"
+      }
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": {},
+  "prefer-stable": true,
+  "prefer-lowest": false,
+  "platform": {
+    "php": ">=8.3.31 <8.4"
+  },
+  "platform-dev": [],
+  "plugin-api-version": "2.6.0"
+}
